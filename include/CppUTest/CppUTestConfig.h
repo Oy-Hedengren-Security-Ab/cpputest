@@ -28,6 +28,8 @@
 #ifndef CPPUTESTCONFIG_H_
 #define CPPUTESTCONFIG_H_
 
+#define OUTPUT_BUFFER_SIZE 8192 /** 2025016, Hedengren Security, Esa Alasalmi */
+
 #ifndef CPPUTEST_USE_OWN_CONFIGURATION
 #include "CppUTestGeneratedConfig.h"
 #endif
